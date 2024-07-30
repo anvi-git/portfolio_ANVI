@@ -1,6 +1,8 @@
+// this code returns the following number
+
 #include <iostream>
 
-int successivo(int a);
+int next_number(int a);
 
 int main()
   {
@@ -11,7 +13,7 @@ int main()
     b=a+1;
     return 0;
   }
- int successivo(int x);
+ int next_number(int x);
   {
   return x+1;
   }
